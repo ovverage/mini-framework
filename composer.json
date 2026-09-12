@@ -1,0 +1,13 @@
+{
+  "name": "ovverage/mini-framework",
+  "description": "A small PHP framework",
+  "type": "project",
+  "require": {
+    "php": "*"
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests/"
+    }
+  }
+}
