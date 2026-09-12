@@ -1,13 +1,14 @@
 <?php
 
-namespace Mini\Http
+namespace Mini\Http;
 
-final enum Method {
-  case GET;
-  case POST;
-  case PUT;
-  case PATCH;
-  case DELETE;
-  case HEAD;
-  case OPTIONS;
+enum Method: string
+{
+  case GET = 'GET';
+  case POST = 'POST';
+  case PUT = 'PUT';
+  case PATCH = 'PATCH';
+  case DELETE = 'DELETE';
+  case HEAD = 'HEAD';
+  case OPTIONS = 'OPTIONS';
 }
