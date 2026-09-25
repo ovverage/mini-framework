@@ -5,6 +5,11 @@
   "require": {
     "php": "*"
   },
+  "autoload": {
+    "psr-4": {
+      "Mini\\": "src/"
+    }
+  },
   "autoload-dev": {
     "psr-4": {
       "Tests\\": "tests/"

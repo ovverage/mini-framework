@@ -14,7 +14,7 @@ final class Route implements RouteInterface
 
   public function matches(Method $method, string $uri): bool
   {
-    return $this->method->value === strtoupper($method->value) && $this->path === $uri;
+    return $this->method === $method && $this->path === $uri;
   }
 
   public function handle(): mixed
